@@ -1,0 +1,16 @@
+{
+    "id": "a54684ce-1fec-4690-811b-414d99aad140",
+    "version": "0.0.1",
+    "requiredApiVersion": "^1.19.0",
+    "iconFile": "icon.png",
+    "author": {
+        "name": "rocket.chat",
+        "homepage": "rocket.chat",
+        "support": "rocket.chat"
+    },
+    "name": "inputelementblockaction",
+    "nameSlug": "inputelementblockaction",
+    "classFile": "InputElementBlockActionApp.ts",
+    "description": "",
+    "implements": []
+}
