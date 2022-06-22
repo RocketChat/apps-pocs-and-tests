@@ -1,7 +1,7 @@
 {
     "id": "7fc28f01-b5d2-4d7c-ba86-aad72bae6a12",
     "version": "0.0.1",
-    "requiredApiVersion": "^1.4.0",
+    "requiredApiVersion": "^1.19.0",
     "iconFile": "icon.png",
     "author": {
         "name": "rc",
@@ -11,5 +11,6 @@
     "name": "agendav4test",
     "nameSlug": "agendavfourtest",
     "classFile": "Agendav4testApp.ts",
-    "description": "rc"
+    "description": "rc",
+    "implements": []
 }
