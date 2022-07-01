@@ -50,7 +50,7 @@ class Scheduler implements ISlashCommand {
                 const jobId = await modify.getScheduler().scheduleRecurring({
                     id: 'sendMessage',
                     skipImmediate: true,
-                    interval: 'every 10 seconds',
+                    interval: '10 seconds',
                     data: {
                         user,
                         room,
@@ -66,9 +66,9 @@ class Scheduler implements ISlashCommand {
 
             case 'o':
             case 'onetime': {
-                const jobId = await modify.getScheduler().scheduleRecurring({
+                const jobId = await modify.getScheduler().scheduleOnce({
                     id: 'sendMessage',
-                    interval: 'in 10 seconds',
+                    when: 'in 10 seconds',
                     data: {
                         user,
                         room,
